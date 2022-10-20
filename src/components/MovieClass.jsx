@@ -10,7 +10,7 @@ class MovieClass extends Component {
         };
     }
     componentDidMount(){
-        fetch("https://api.nytimes.com/svc/movies/v2/reviews/all.json?query=&api-key=tqm5JsRdsRQfNq5XbKKtmywO3WaciMx4")
+        fetch("https://api.nytimes.com/svc/movies/v2/reviews/all.json?query=&api-key=qUiJLDJ6GsiheUz4yOJhMpGI7h9FwMAz")
         .then((response) => response.json())
         .then((movies) => {
             // console.log("movies:", "movies.results");

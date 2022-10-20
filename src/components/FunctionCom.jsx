@@ -6,7 +6,7 @@ function FunctionCom() {
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
      axios
-      .get("https://api.nytimes.com/svc/movies/v2/reviews/all.json?query=&api-key=0dogounw8tOyjmK0IfdqoyE33DfdMA00")
+      .get("https://api.nytimes.com/svc/movies/v2/reviews/all.json?query=&api-key=qUiJLDJ6GsiheUz4yOJhMpGI7h9FwMAz")
       .then((reviews) => {
        setReviews(reviews.data.results);
        console.log(reviews.data.results);
